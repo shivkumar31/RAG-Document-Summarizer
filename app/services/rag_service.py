@@ -25,7 +25,7 @@ splitter = RecursiveCharacterTextSplitter(
     chunk_size=500,
     chunk_overlap=100
 )
-
+# 
 def summarize_content(file_path: str = None, text: str = None, user_prompt: str = ""):
     """Handles PDF only, Text only, or Both combined."""
     docs = []
